@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <form class="form-group" ng-submit="userSignUp()">
+    <label for="userName">Name</label>
+    <input type="text" placeholder="Enter Name" class="form-control" ng-model="user.username" />
+    <label for="password">Password</label>
+    <input type="password" placeholder="Enter Name" class="form-control" ng-model="user.password" />
+    <label for="email">Email</label>
+    <input type="text" placeholder="example@hotboi.com" class="form-control" ng-model="user.email" />
+    <button type="submit" class="btn btn-primary" ng-click="resetForm()">favorite button</button>
+  </form>
+  <h3 ui-sref="login">Log In</h3>
+</div>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="hotspot" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Testing 12345!!</title>
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="app/styles/styles.css">
+</head>
+<body>
+  
+  <h1 ui-sref="login">Hot Spot</h1>
+  <h1 ui-sref="mapview">Map</h1>
+  
+  <div ui-view></div>
+
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="lib/jquery/dist/jquery.js"></script>
+  <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+
+  <script src="app/app.js"></script>
+  <script src="app/login/login.js"></script>
+  <script src="app/signup/signup.js"></script>
+  <script src="app/mapview/mapview.js"></script>
+
+  <!-- <script src="lib/angular-animate/angular-animate.js"></script> -->
+
+</body>
+</html>
